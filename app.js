@@ -80,10 +80,17 @@
 // console.log(x > y);//true
 // console.log(x < y);//false
 
-function avg (a,b){
-    c=(a+b)/2;
-    return c;
+// function avg (a,b){
+    // c=(a+b)/2;
+    // return c;
+// }
+// c1 = avg (4,6); //5
+// c2 = avg (14,16); //15
+// console.log(c1,c2);
+
+var age = 9;
+if (age > 8){
+    console.log('You are not a kid');
+}else {
+    console.log('You are a kid')
 }
-c1 = avg (4,6); //5
-c2 = avg (14,16); //15
-console.log(c1,c2);
