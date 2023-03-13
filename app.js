@@ -78,7 +78,7 @@
 // console.log(x <= y);//false
 // console.log(x == y);//false
 // console.log(x > y);//true
-// console.log(x < y);//false
+// console.log(x < ys);//false
 
 // function avg (a,b){
     // c=(a+b)/2;
@@ -88,9 +88,32 @@
 // c2 = avg (14,16); //15
 // console.log(c1,c2);
 
-var age = 9;
-if (age > 8){
-    console.log('You are not a kid');
-}else {
-    console.log('You are a kid')
-}
+// var age = 9;
+// if (age > 8){
+    // console.log('You are not a kid');
+// }else {
+    // console.log('You are a kid')
+// }
+// var age = 27;
+// if(age > 32){
+    // console.log("You are not a kid");
+// }
+// else if(age > 26){
+    // console.log('Yes Bachi nahi rahi');
+// }
+// else if(age > 18){
+    // console.log('Bachi Rahi')
+// }
+// console.log('End of Ladder');
+// 
+
+// For Loops
+// var arr = [1, 2,3,4,5,6,7];
+// console.log(arr);
+// for(var i=0;i<arr.length;i++){
+// console.log(arr[i])
+// }
+var arr = [1, 2,3,4,5,6,7];
+arr .forEach(function(element) {
+    console.log(element)    
+});
